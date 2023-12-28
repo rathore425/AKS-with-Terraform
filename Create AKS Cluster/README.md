@@ -44,10 +44,25 @@ Welcome to the AKS Cluster setup guide! This guide will walk you through creatin
 # Step-03: Cloud Shell - Configure kubectl to connect to AKS Cluster
 - Go to https://shell.azure.com
 - Run the following command
-`# Replace Resource Group & Cluster Name
+```t
+# Replace Resource Group & Cluster Name
 az aks get-credentials --resource-group aks-rg1 --name aksdemo1
 
 # List Kubernetes Worker Nodes
 kubectl get nodes 
 kubectl get nodes -o wide
-`
+```
+
+# Step-04: Explore Cluster Control Plane and Workload inside that
+
+```t
+# List Namespaces
+kubectl get namespaces
+kubectl get ns
+
+# List Pods from all namespaces
+kubectl get pods --all-namespaces
+
+# List all k8s objects from Cluster Control plane
+kubectl get all --all-namespaces
+```
