@@ -54,7 +54,7 @@ kubectl get nodes -o wide
 ```
 
 # Step-04: Explore Cluster Control Plane and Workload inside that
-
+- Run the following command
 ```t
 # List Namespaces
 kubectl get namespaces
@@ -66,3 +66,40 @@ kubectl get pods --all-namespaces
 # List all k8s objects from Cluster Control plane
 kubectl get all --all-namespaces
 ```
+
+# Step-05: Explore the AKS cluster on Azure Management Console
+- Explore the following features on a high-level:
+- **Overview**
+  - Activity Log
+  - Access Control (IAM)
+  - Security
+  - Diagnose and solver problems
+  - Microsoft Defender for Cloud
+- **Kubernetes Resources**  
+  - Namespaces
+  - Workloads
+  - Services and Ingress
+  - Storage
+  - Configuration
+- **Settings**
+  - Node Pools
+  - Cluster Configuration
+  - Extensions + Applications
+  - Backup (preview)
+  - Open Service Mesh
+  - GitOps
+  - Automated Deployments (preview)
+  - Policies
+  - Properties
+  - Locks
+- **Monitoring**
+  - Insights
+  - Alerts
+  - Metrics
+  - Diagnostic Settings
+  - Advisor Recommendations
+  - Logs
+  - Workbooks
+- **Automation** 
+  - Tasks
+  - Export Template    
