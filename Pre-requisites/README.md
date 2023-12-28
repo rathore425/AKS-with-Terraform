@@ -7,3 +7,4 @@ If you don't have an Azure Cloud Subscription yet, you can sign up for a free ac
 
 # Github Repositories
 You'll need access to Github repositories to collaborate and manage your project codebase. If you're new to Github, you can create a new account here.
+[GitHub Account](https://github.com/)
