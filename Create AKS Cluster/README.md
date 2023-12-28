@@ -1,4 +1,4 @@
-Setting Up and Exploring Azure AKS Cluster
+**Setting Up and Exploring Azure AKS Cluster**
 
 Step-01: Introduction
 
